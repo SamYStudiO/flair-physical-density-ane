@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/PhysicalDensityANE.iml" filepath="$PROJECT_DIR$/PhysicalDensityANE.iml" />
       <module fileurl="file://$PROJECT_DIR$/actionscript/actionscript.iml" filepath="$PROJECT_DIR$/actionscript/actionscript.iml" />
       <module fileurl="file://$PROJECT_DIR$/android/android.iml" filepath="$PROJECT_DIR$/android/android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flair-physical-density-ane.iml" filepath="$PROJECT_DIR$/flair-physical-density-ane.iml" />
     </modules>
   </component>
 </project>
