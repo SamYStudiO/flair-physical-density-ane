@@ -9,4 +9,4 @@ This extension is actually used for flair-gradle-plugin (https://github.com/SamY
 trace( PhysicalDensity.dpi );
 ```
 
-On desktop and iOS devices this will return Capabilities.screenDpi, so this extension has no isSupported method since it will works fine on all platform.
+On desktop and iOS devices this will return Capabilities.screenDpi, so this extension has no isSupported method since it will work fine on all platform.
