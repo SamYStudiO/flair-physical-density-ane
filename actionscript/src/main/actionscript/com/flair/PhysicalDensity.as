@@ -16,6 +16,14 @@ package com.flair
 		/**
 		 *
 		 */
+		public static function get version() : String
+		{
+			return "1.0.0";
+		}
+
+		/**
+		 *
+		 */
 		public static function get dpi() : uint
 		{
 			return Capabilities.manufacturer.indexOf( "Android" ) >= 0 ? uint( __getInstance()._context.call( "dpi" ) ) : Capabilities.screenDPI;
@@ -30,6 +38,7 @@ package com.flair
 
 			return __instance;
 		}
+
 		/**
 		 *
 		 */
@@ -42,7 +51,7 @@ package com.flair
 		{
 			if( singleton == null ) throw new Error( this + " Singleton instance can only be accessed through getInstance method" );
 
-			_context = ExtensionContext.createExtensionContext( "net.samystudio.Density" , "" );
+			_context = ExtensionContext.createExtensionContext( "com.flair.PhysicalDensity" , "" );
 
 			if( !_context )
 			{
