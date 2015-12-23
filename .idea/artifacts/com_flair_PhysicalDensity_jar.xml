@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="com.flair.PhysicalDensity:jar">
+    <output-path>$PROJECT_DIR$/build/android</output-path>
+    <root id="archive" name="com.flair.PhysicalDensity.jar">
+      <element id="module-output" name="android" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/android/libs/FlashRuntimeExtensions.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
