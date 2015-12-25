@@ -1,4 +1,4 @@
-# flair-physical-density-ane
+# Flair Physical Density ANE
 Adobe AIR native extension to retrieve android device physical density
 
 Simple ane to retrieve physical density on android device since using as3 Capabilities.screenDpi will return bucket dpi (160, 240, 320, etc..).
