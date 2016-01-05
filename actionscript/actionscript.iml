@@ -2,7 +2,7 @@
 <module type="Flex" version="4">
   <component name="FlexBuildConfigurationManager" active="actionscript">
     <configurations>
-      <configuration name="actionscript" target-platform="Mobile" pure-as="true" output-type="Library" output-file="com.flair.PhysicalDensity.swc" output-folder="$MODULE_DIR$/../build">
+      <configuration name="actionscript" target-platform="Mobile" pure-as="true" output-type="Library" output-file="flair.PhysicalDensity.swc" output-folder="$MODULE_DIR$/../build">
         <dependencies>
           <sdk name="air_sdk_20.0" />
         </dependencies>

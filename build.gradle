@@ -1,13 +1,13 @@
 task unzipLibrary( dependsOn: [ "unzipLibraryAndroid" , "unzipLibraryDefault" ] ) {}
 
 task unzipLibraryAndroid( type: Copy ) {
-	from zipTree( "${ buildDir }/com.flair.PhysicalDensity.swc" )
+	from zipTree( "${ buildDir }/flair.PhysicalDensity.swc" )
 	into "${ buildDir }/android"
 	include "**/*.swf"
 }
 
 task unzipLibraryDefault( type: Copy ) {
-	from zipTree( "${ buildDir }/com.flair.PhysicalDensity.swc" )
+	from zipTree( "${ buildDir }/flair.PhysicalDensity.swc" )
 	into "${ buildDir }/default"
 	include "**/*.swf"
 }
@@ -19,5 +19,5 @@ task copyExtensionXML( type: Copy ) {
 
 task compileANE( type: Exec , dependsOn: [ "unzipLibraryAndroid" , "unzipLibraryDefault" , "copyExtensionXML" ] ) {
 
-	commandLine adt , "-package" , "-target" , "ane" , "bin/com.flair.PhysicalDensity.ane" , "${ buildDir }/extension.xml" , "-swc" , "${ buildDir }/com.flair.PhysicalDensity.swc" , "-platform" , "Android-ARM" , "-C" , "${ buildDir }/android" , "." , "-platform" , "Android-x86" , "-C" , "${ buildDir }/android" , "." , "-platform" , "default" , "-C" , "${ buildDir }/default" , "."
+	commandLine adt , "-package" , "-target" , "ane" , "bin/flair.PhysicalDensity.ane" , "${ buildDir }/extension.xml" , "-swc" , "${ buildDir }/flair.PhysicalDensity.swc" , "-platform" , "Android-ARM" , "-C" , "${ buildDir }/android" , "." , "-platform" , "Android-x86" , "-C" , "${ buildDir }/android" , "." , "-platform" , "default" , "-C" , "${ buildDir }/default" , "."
 }

@@ -1,4 +1,4 @@
-package com.flair
+package flair
 {
 	import flash.external.ExtensionContext;
 	import flash.system.Capabilities;
@@ -51,7 +51,7 @@ package com.flair
 		{
 			if( singleton == null ) throw new Error( this + " Singleton instance can only be accessed through getInstance method" );
 
-			_context = ExtensionContext.createExtensionContext( "com.flair.PhysicalDensity" , "" );
+			_context = ExtensionContext.createExtensionContext( "flair.PhysicalDensity" , "" );
 
 			if( !_context )
 			{

@@ -1,4 +1,4 @@
-package com.flair;
+package flair;
 import com.adobe.fre.FREContext;
 import com.adobe.fre.FREExtension;
 

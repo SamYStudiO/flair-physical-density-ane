@@ -1,4 +1,4 @@
-package com.flair;
+package flair;
 import android.util.DisplayMetrics;
 import com.adobe.fre.FREContext;
 import com.adobe.fre.FREFunction;
